@@ -1,0 +1,33 @@
+{
+  "name": "video-generador",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pipeline automatizado con Remotion para generar ensayos visuales e históricos para YouTube",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "validar": "node scripts/validar-guion.mjs",
+    "render": "node scripts/render.mjs",
+    "render:ejemplo": "node scripts/render.mjs guiones/ejemplo-caida-de-roma.json",
+    "miniatura": "node scripts/render.mjs --miniatura",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20.11"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.530",
+    "@remotion/cli": "4.0.530",
+    "@remotion/renderer": "4.0.530",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.530",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}

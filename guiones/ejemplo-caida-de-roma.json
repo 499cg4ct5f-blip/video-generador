@@ -1,0 +1,118 @@
+{
+  "titulo": "Roma no cayó en un día",
+  "slug": "roma-no-cayo-en-un-dia",
+  "fps": 30,
+  "ancho": 1920,
+  "alto": 1080,
+  "subtitulos": true,
+  "transicionSegundos": 0.6,
+  "segmentos": [
+    {
+      "id": "gancho",
+      "rol": "gancho",
+      "narracion": "En el año 476, el último emperador de Occidente entregó su corona. Nadie en Roma se dio cuenta de que el imperio había terminado.",
+      "duracionSegundos": 9,
+      "visual": {
+        "tipo": "dato",
+        "cifra": "476 d. C.",
+        "descripcion": "El año en que Roma dejó de tener emperador… y casi nadie lo notó"
+      }
+    },
+    {
+      "id": "promesa",
+      "rol": "promesa",
+      "narracion": "Hoy vamos a descubrir por qué la caída más famosa de la historia fue en realidad una lenta desaparición, y qué señales la anunciaron siglos antes.",
+      "duracionSegundos": 11,
+      "visual": {
+        "tipo": "titulo",
+        "titulo": "Roma no cayó en un día",
+        "subtitulo": "Anatomía de un final silencioso"
+      }
+    },
+    {
+      "id": "contexto-foro",
+      "rol": "contexto",
+      "narracion": "Para entenderlo, hay que volver al siglo tercero, cuando el foro seguía lleno pero el imperio ya tenía más fronteras de las que podía defender.",
+      "duracionSegundos": 10,
+      "visual": {
+        "tipo": "imagen",
+        "src": "imagenes/foro.svg",
+        "movimiento": "acercar",
+        "pie": "Roma, siglo III"
+      }
+    },
+    {
+      "id": "cronologia",
+      "rol": "contexto",
+      "narracion": "En menos de doscientos años, el imperio pasó por la anarquía militar, una división en dos mitades y el saqueo de su propia capital.",
+      "duracionSegundos": 10,
+      "visual": {
+        "tipo": "linea-tiempo",
+        "hitos": [
+          {
+            "fecha": "235",
+            "evento": "Anarquía militar"
+          },
+          {
+            "fecha": "395",
+            "evento": "División del imperio"
+          },
+          {
+            "fecha": "410",
+            "evento": "Saqueo visigodo"
+          },
+          {
+            "fecha": "476",
+            "evento": "Deposición de Rómulo Augústulo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "escalada-frontera",
+      "rol": "escalada",
+      "narracion": "Pero el verdadero problema no estaba en Roma. Estaba en la frontera, donde el ejército ya dependía de los mismos pueblos a los que debía contener.",
+      "duracionSegundos": 10,
+      "visual": {
+        "tipo": "imagen",
+        "src": "imagenes/limes.svg",
+        "movimiento": "derecha",
+        "pie": "El limes germánico"
+      }
+    },
+    {
+      "id": "giro-cita",
+      "rol": "giro",
+      "narracion": "Y aquí está el giro: para muchos de sus contemporáneos, Roma no había caído. Solo había cambiado de dueños.",
+      "duracionSegundos": 9,
+      "visual": {
+        "tipo": "cita",
+        "texto": "La ciudad que había conquistado el mundo entero fue ella misma conquistada.",
+        "autor": "San Jerónimo, 410"
+      }
+    },
+    {
+      "id": "climax-ravena",
+      "rol": "climax",
+      "narracion": "En Rávena, Odoacro depuso a un emperador adolescente y envió las insignias imperiales a Constantinopla. No hubo batalla final. Solo un gesto administrativo.",
+      "duracionSegundos": 11,
+      "visual": {
+        "tipo": "imagen",
+        "src": "imagenes/ravena.svg",
+        "movimiento": "alejar",
+        "pie": "Rávena, 4 de septiembre de 476"
+      }
+    },
+    {
+      "id": "cierre",
+      "rol": "cierre",
+      "narracion": "Los imperios rara vez caen con estruendo. Se apagan poco a poco. Y la pregunta que queda es incómoda: ¿notaríamos hoy las mismas señales?",
+      "duracionSegundos": 10,
+      "visual": {
+        "tipo": "titulo",
+        "titulo": "¿Notaríamos las señales?",
+        "subtitulo": "Suscríbete para el próximo ensayo"
+      }
+    }
+  ]
+}
