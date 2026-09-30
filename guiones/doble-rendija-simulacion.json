@@ -1,0 +1,269 @@
+{
+  "titulo": "El experimento que demostró que la realidad no es real",
+  "slug": "la-realidad-no-es-real",
+  "fps": 30,
+  "ancho": 1920,
+  "alto": 1080,
+  "subtitulos": true,
+  "transicionSegundos": 0.5,
+  "segmentos": [
+    {
+      "id": "gancho-un-electron",
+      "rol": "gancho",
+      "narracion": "Un solo electrón. Dos rendijas. Y atraviesa las dos a la vez.",
+      "duracionSegundos": 6,
+      "visual": {
+        "tipo": "dato",
+        "cifra": "1 electrón",
+        "descripcion": "Dos rendijas. Pasa por las dos a la vez."
+      }
+    },
+    {
+      "id": "gancho-lo-miramos",
+      "rol": "gancho",
+      "narracion": "Pero en cuanto colocamos un detector para ver por cuál pasa, deja de hacerlo. Como si supiera que lo estamos mirando.",
+      "duracionSegundos": 9,
+      "visual": {
+        "tipo": "imagen",
+        "src": "imagenes/doble-rendija/laboratorio.svg",
+        "movimiento": "acercar",
+        "pie": "El experimento de la doble rendija"
+      }
+    },
+    {
+      "id": "promesa",
+      "rol": "promesa",
+      "narracion": "Este es el experimento que Richard Feynman llamó el único misterio de la física. Hoy vas a entender qué demuestra de verdad, y por qué algunos lo usan para decir que vivimos en una simulación.",
+      "duracionSegundos": 14,
+      "visual": {
+        "tipo": "titulo",
+        "titulo": "La realidad no es lo que crees",
+        "subtitulo": "El experimento de la doble rendija"
+      }
+    },
+    {
+      "id": "contexto-young",
+      "rol": "contexto",
+      "narracion": "Londres, 1801. Thomas Young hace pasar luz por dos rendijas estrechas. Si la luz fuera un chorro de partículas, en la pared veríamos dos franjas.",
+      "duracionSegundos": 12,
+      "visual": {
+        "tipo": "imagen",
+        "src": "imagenes/doble-rendija/young.svg",
+        "movimiento": "acercar",
+        "pie": "Thomas Young · Londres, 1801"
+      }
+    },
+    {
+      "id": "contexto-interferencia",
+      "rol": "contexto",
+      "narracion": "Pero aparecen muchas: bandas de luz y sombra alternadas. Es la huella de una onda, que pasa por ambas rendijas y se cruza consigo misma.",
+      "duracionSegundos": 10,
+      "visual": {
+        "tipo": "imagen",
+        "src": "imagenes/doble-rendija/interferencia.svg",
+        "movimiento": "izquierda",
+        "pie": "Patrón de interferencia"
+      }
+    },
+    {
+      "id": "contexto-cronologia",
+      "rol": "contexto",
+      "narracion": "Durante un siglo todo encajó. Hasta que Einstein mostró que la luz también llega en paquetes, y se descubrió que los electrones, que son partículas, también forman ondas.",
+      "duracionSegundos": 12,
+      "visual": {
+        "tipo": "linea-tiempo",
+        "hitos": [
+          {
+            "fecha": "1801",
+            "evento": "Young: la luz es una onda"
+          },
+          {
+            "fecha": "1905",
+            "evento": "Einstein: la luz llega en cuantos"
+          },
+          {
+            "fecha": "1927",
+            "evento": "Davisson y Germer: los electrones también son ondas"
+          },
+          {
+            "fecha": "1989",
+            "evento": "Tonomura: electrones uno a uno"
+          }
+        ]
+      }
+    },
+    {
+      "id": "escalada-uno-a-uno",
+      "rol": "escalada",
+      "narracion": "Así que alguien hizo la pregunta obvia. ¿Y si disparamos los electrones de uno en uno? Sin compañeros con los que chocar. Sin nada con lo que interferir.",
+      "duracionSegundos": 13,
+      "visual": {
+        "tipo": "imagen",
+        "src": "imagenes/doble-rendija/electrones.svg",
+        "movimiento": "acercar",
+        "pie": "Un electrón cada vez"
+      }
+    },
+    {
+      "id": "escalada-puntos",
+      "rol": "escalada",
+      "narracion": "Cada electrón deja un solo punto en la pantalla, como una bala. Pero al acumular miles de puntos, aparece otra vez el patrón de bandas. El patrón de una onda.",
+      "duracionSegundos": 13,
+      "visual": {
+        "tipo": "imagen",
+        "src": "imagenes/doble-rendija/acumulacion.svg",
+        "movimiento": "alejar",
+        "pie": "Tonomura y Hitachi, 1989"
+      }
+    },
+    {
+      "id": "escalada-consigo-mismo",
+      "rol": "escalada",
+      "narracion": "Cada electrón, viajando solo, se comporta como si hubiera pasado por las dos rendijas a la vez e interferido consigo mismo.",
+      "duracionSegundos": 10,
+      "visual": {
+        "tipo": "dato",
+        "cifra": "1 → 2",
+        "descripcion": "Cada electrón, solo, se comporta como si cruzara las dos rendijas"
+      }
+    },
+    {
+      "id": "escalada-detector",
+      "rol": "escalada",
+      "narracion": "Entonces los físicos hacen lo lógico: colocan un detector junto a las rendijas para ver por cuál pasa realmente cada electrón. Y aquí empieza lo inquietante.",
+      "duracionSegundos": 13,
+      "visual": {
+        "tipo": "imagen",
+        "src": "imagenes/doble-rendija/detector.svg",
+        "movimiento": "derecha",
+        "pie": "El detector de camino"
+      }
+    },
+    {
+      "id": "escalada-colapso",
+      "rol": "escalada",
+      "narracion": "Cada electrón pasa por una sola rendija. Y el patrón de bandas desaparece. Solo quedan dos franjas, como si fueran balas. Mirar cambió el resultado.",
+      "duracionSegundos": 12,
+      "visual": {
+        "tipo": "dato",
+        "cifra": "2 franjas",
+        "descripcion": "Al medir por dónde pasa, el patrón de onda desaparece"
+      }
+    },
+    {
+      "id": "escalada-feynman",
+      "rol": "escalada",
+      "narracion": "Feynman lo resumió así: es imposible, absolutamente imposible, explicarlo de forma clásica. Y este experimento contiene el único misterio de la mecánica cuántica.",
+      "duracionSegundos": 11,
+      "visual": {
+        "tipo": "cita",
+        "texto": "Un fenómeno imposible, absolutamente imposible, de explicar de ninguna forma clásica. En realidad, contiene el único misterio.",
+        "autor": "Richard Feynman, Lecciones de Física, vol. III"
+      }
+    },
+    {
+      "id": "escalada-wheeler",
+      "rol": "escalada",
+      "narracion": "Y aún fue a peor. John Wheeler propuso decidir si medimos o no cuando el fotón ya ha dejado atrás las rendijas. En 2007 se hizo en un laboratorio cerca de París.",
+      "duracionSegundos": 14,
+      "visual": {
+        "tipo": "imagen",
+        "src": "imagenes/doble-rendija/wheeler.svg",
+        "movimiento": "acercar",
+        "pie": "John Wheeler · Elección retardada"
+      }
+    },
+    {
+      "id": "escalada-eleccion-retardada",
+      "rol": "escalada",
+      "narracion": "El resultado seguía dependiendo de la medida elegida al final. Como si la partícula no hubiera tenido un camino definido hasta que la medimos.",
+      "duracionSegundos": 12,
+      "visual": {
+        "tipo": "dato",
+        "cifra": "Después",
+        "descripcion": "Elegir la medida al final sigue decidiendo qué patrón aparece"
+      }
+    },
+    {
+      "id": "escalada-videojuego",
+      "rol": "escalada",
+      "narracion": "Para algunos, esto suena familiar. Un videojuego no dibuja lo que nadie está mirando: lo calcula solo cuando hace falta. ¿Hace el universo lo mismo?",
+      "duracionSegundos": 12,
+      "visual": {
+        "tipo": "imagen",
+        "src": "imagenes/doble-rendija/videojuego.svg",
+        "movimiento": "derecha",
+        "pie": "Renderizar solo lo observado"
+      }
+    },
+    {
+      "id": "escalada-bostrom",
+      "rol": "escalada",
+      "narracion": "En 2003, el filósofo Nick Bostrom argumentó que, si alguna civilización llega a simular mundos enteros, lo más probable es que nosotros vivamos en uno de ellos.",
+      "duracionSegundos": 12,
+      "visual": {
+        "tipo": "imagen",
+        "src": "imagenes/doble-rendija/bostrom.svg",
+        "movimiento": "acercar",
+        "pie": "Nick Bostrom · Hipótesis de la simulación, 2003"
+      }
+    },
+    {
+      "id": "giro-no-simulacion",
+      "rol": "giro",
+      "narracion": "Pero aquí está el giro. El experimento no demuestra que vivamos en una simulación. Y el observador no necesita conciencia: basta cualquier interacción que deje rastro del camino.",
+      "duracionSegundos": 13,
+      "visual": {
+        "tipo": "dato",
+        "cifra": "No",
+        "descripcion": "No demuestra una simulación. Y «observar» no exige una mente: basta dejar rastro"
+      }
+    },
+    {
+      "id": "giro-nobel",
+      "rol": "giro",
+      "narracion": "Lo que sí demuestra es algo más extraño. En 2022, el Nobel de Física premió a Aspect, Clauser y Zeilinger por experimentos con partículas entrelazadas.",
+      "duracionSegundos": 12,
+      "visual": {
+        "tipo": "imagen",
+        "src": "imagenes/doble-rendija/nobel.svg",
+        "movimiento": "alejar",
+        "pie": "Premio Nobel de Física, 2022"
+      }
+    },
+    {
+      "id": "climax-elige-una",
+      "rol": "climax",
+      "narracion": "Sus experimentos obligan a elegir. O las partículas no tienen propiedades definidas antes de ser medidas, o están conectadas a distancia de una forma que desafía el espacio mismo.",
+      "duracionSegundos": 14,
+      "visual": {
+        "tipo": "dato",
+        "cifra": "Elige una",
+        "descripcion": "O no hay propiedades antes de medir, o la realidad no es local"
+      }
+    },
+    {
+      "id": "climax-mas-extrana",
+      "rol": "climax",
+      "narracion": "La realidad que vemos, sólida y definida, emerge de algo que antes de medirse no se parece a nada que podamos imaginar. No es falsa. Es más extraña.",
+      "duracionSegundos": 13,
+      "visual": {
+        "tipo": "imagen",
+        "src": "imagenes/doble-rendija/patron-final.svg",
+        "movimiento": "alejar",
+        "pie": "La realidad, sin mirar"
+      }
+    },
+    {
+      "id": "cierre",
+      "rol": "cierre",
+      "narracion": "Einstein preguntó una vez si la Luna sigue ahí cuando nadie la mira. Setenta años después, seguimos sin una respuesta cómoda. ¿Tú qué crees? Te leo en los comentarios.",
+      "duracionSegundos": 13,
+      "visual": {
+        "tipo": "titulo",
+        "titulo": "¿Sigue ahí la Luna si nadie la mira?",
+        "subtitulo": "Suscríbete para el próximo ensayo"
+      }
+    }
+  ]
+}
